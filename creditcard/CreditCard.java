@@ -1,4 +1,4 @@
-package credit.card;
+package creditcard;
 
 //Создать класс CreditCard c полями номер счета, текущая сумма на счету.
 public class CreditCard {
