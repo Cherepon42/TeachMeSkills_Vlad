@@ -3,20 +3,20 @@ package creditcard;
 //Создать класс CreditCard c полями номер счета, текущая сумма на счету.
 public class CreditCard {
     int accountNumber;
-    float balance;
+    double balance;
 
-    public CreditCard(int accountNumber, float balance) {
+    public CreditCard(int accountNumber, double balance) {
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
 
     // Добавьте метод, который позволяет начислять сумму на кредитную карточку.
-    void deposit(float amount) {
+    void deposit(double amount) {
         balance = balance + amount;
     }
 
     // Добавьте метод, который позволяет снимать с карточки некоторую сумму.
-    void withdraw(float amount) {
+    void withdraw(double amount) {
         balance = balance - amount;
     }
 
